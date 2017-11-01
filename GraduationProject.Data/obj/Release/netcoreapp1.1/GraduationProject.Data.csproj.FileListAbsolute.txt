@@ -1,0 +1,8 @@
+D:\Graducation Project\Project-Web Application\GraduationProject.Data\bin\Release\netcoreapp1.1\GraduationProject.Data.deps.json
+D:\Graducation Project\Project-Web Application\GraduationProject.Data\bin\Release\netcoreapp1.1\GraduationProject.Data.dll
+D:\Graducation Project\Project-Web Application\GraduationProject.Data\bin\Release\netcoreapp1.1\GraduationProject.Data.pdb
+D:\Graducation Project\Project-Web Application\GraduationProject.Data\obj\Release\netcoreapp1.1\GraduationProject.Data.csproj.CoreCompileInputs.cache
+D:\Graducation Project\Project-Web Application\GraduationProject.Data\obj\Release\netcoreapp1.1\GraduationProject.Data.AssemblyInfoInputs.cache
+D:\Graducation Project\Project-Web Application\GraduationProject.Data\obj\Release\netcoreapp1.1\GraduationProject.Data.AssemblyInfo.cs
+D:\Graducation Project\Project-Web Application\GraduationProject.Data\obj\Release\netcoreapp1.1\GraduationProject.Data.dll
+D:\Graducation Project\Project-Web Application\GraduationProject.Data\obj\Release\netcoreapp1.1\GraduationProject.Data.pdb

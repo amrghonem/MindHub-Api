@@ -1,0 +1,3 @@
+﻿@using GraduationProject.Data
+@model ApplicationUser
+<h1>Hello @Model.Name You Is Confirmed Now You Can Login From Here <a>Login</a></h1>

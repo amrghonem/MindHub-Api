@@ -1,0 +1,18 @@
+C:\Users\user\Source\Workspaces\Graduation_Project\GraduationProject\Project\GraduationProject.Data\bin\Debug\netcoreapp1.1\GraduationProject.Data.deps.json
+C:\Users\user\Source\Workspaces\Graduation_Project\GraduationProject\Project\GraduationProject.Data\bin\Debug\netcoreapp1.1\GraduationProject.Data.dll
+C:\Users\user\Source\Workspaces\Graduation_Project\GraduationProject\Project\GraduationProject.Data\bin\Debug\netcoreapp1.1\GraduationProject.Data.pdb
+C:\Users\user\Source\Workspaces\Graduation_Project\GraduationProject\Project\GraduationProject.Data\obj\Debug\netcoreapp1.1\GraduationProject.Data.csprojResolveAssemblyReference.cache
+C:\Users\user\Source\Workspaces\Graduation_Project\GraduationProject\Project\GraduationProject.Data\obj\Debug\netcoreapp1.1\GraduationProject.Data.csproj.CoreCompileInputs.cache
+C:\Users\user\Source\Workspaces\Graduation_Project\GraduationProject\Project\GraduationProject.Data\obj\Debug\netcoreapp1.1\GraduationProject.Data.AssemblyInfoInputs.cache
+C:\Users\user\Source\Workspaces\Graduation_Project\GraduationProject\Project\GraduationProject.Data\obj\Debug\netcoreapp1.1\GraduationProject.Data.AssemblyInfo.cs
+C:\Users\user\Source\Workspaces\Graduation_Project\GraduationProject\Project\GraduationProject.Data\obj\Debug\netcoreapp1.1\GraduationProject.Data.dll
+C:\Users\user\Source\Workspaces\Graduation_Project\GraduationProject\Project\GraduationProject.Data\obj\Debug\netcoreapp1.1\GraduationProject.Data.pdb
+D:\Graducation Project\Project-Web Application\GraduationProject.Data\bin\Debug\netcoreapp1.1\GraduationProject.Data.deps.json
+D:\Graducation Project\Project-Web Application\GraduationProject.Data\bin\Debug\netcoreapp1.1\GraduationProject.Data.dll
+D:\Graducation Project\Project-Web Application\GraduationProject.Data\bin\Debug\netcoreapp1.1\GraduationProject.Data.pdb
+D:\Graducation Project\Project-Web Application\GraduationProject.Data\obj\Debug\netcoreapp1.1\GraduationProject.Data.csproj.CoreCompileInputs.cache
+D:\Graducation Project\Project-Web Application\GraduationProject.Data\obj\Debug\netcoreapp1.1\GraduationProject.Data.AssemblyInfoInputs.cache
+D:\Graducation Project\Project-Web Application\GraduationProject.Data\obj\Debug\netcoreapp1.1\GraduationProject.Data.AssemblyInfo.cs
+D:\Graducation Project\Project-Web Application\GraduationProject.Data\obj\Debug\netcoreapp1.1\GraduationProject.Data.dll
+D:\Graducation Project\Project-Web Application\GraduationProject.Data\obj\Debug\netcoreapp1.1\GraduationProject.Data.pdb
+D:\Graducation Project\Project-Web Application\GraduationProject.Data\obj\Debug\netcoreapp1.1\GraduationProject.Data.csprojResolveAssemblyReference.cache
