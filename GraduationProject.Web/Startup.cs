@@ -141,13 +141,6 @@ namespace GraduationProject.Web
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
-            loggerFactory.AddConsole();
-
-
-            //app.UseStatusCodePagesWithReExecute("/ApplicationHandler/Error/{0}");
-
-
-
             app.UseCors(builder =>
             {
                 builder.AllowAnyOrigin();
@@ -177,24 +170,23 @@ namespace GraduationProject.Web
                     template: "{controller=Home}/{action=Index}/{Id?}"
                     ));
 
+            app.UseIdentity();
+
+            app.UseStaticFiles();
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
-
-
-
-            app.UseStaticFiles();
-
-            app.UseIdentity();
-
-
-            //app.Run(async (context) =>
-            //{
-            //    await context.Response.WriteAsync("Hello World!");
-            //});
-
             
+            loggerFactory.AddConsole();
+
+            //app.UseStatusCodePagesWithReExecute("/ApplicationHandler/Error/{0}");
+            app.Run(async (context) =>
+            {
+                await context.Response.WriteAsync("Hello World!");
+            });
+
         }
     }
 }

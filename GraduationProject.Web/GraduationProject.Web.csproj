@@ -42,6 +42,7 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\angularcomponents\DashBoard\srvs\" />
+    <Folder Include="wwwroot\uploadedimages\" />
   </ItemGroup>
 
 </Project>

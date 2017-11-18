@@ -10,6 +10,10 @@ using Microsoft.AspNetCore.Identity;
 using GraduationProject.Data;
 using Microsoft.EntityFrameworkCore;
 using GraduationProject.DataAccess;
+using Microsoft.AspNetCore.Http.Internal;
+using System.IO;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace GraduationProject.Web.Controllers.Api
@@ -18,12 +22,17 @@ namespace GraduationProject.Web.Controllers.Api
     {
         private IStudentProfileService _profileSrv;
         private UserManager<ApplicationUser> _userManager;
+        private IHostingEnvironment _env;
         private ApplicationDbContext _ctx;
 
-        public StudentProfileController(IStudentProfileService profileSrv , UserManager<ApplicationUser> userManager,ApplicationDbContext ctx)
+        public StudentProfileController(IStudentProfileService profileSrv ,
+            UserManager<ApplicationUser> userManager,
+            ApplicationDbContext ctx,
+            IHostingEnvironment env)
         {
             _profileSrv = profileSrv;
             _userManager = userManager;
+            _env = env;
             _ctx = ctx;
         }
 
@@ -205,6 +214,31 @@ namespace GraduationProject.Web.Controllers.Api
         {
             var result = _profileSrv.UnFollowFriendint(id);
             return Ok(new { Status = "Success"});
+        }
+
+        [AllowAnonymous]
+        //[Route("api/upload")]
+        [HttpPost]
+        public IActionResult UploadImage(IFormFile file)
+        {
+            var files = Request.Form.Files;
+            if (file.Length > 0 && file.Length < 5000 )
+            {
+                var checkExtension = Path.GetExtension(file.FileName).ToLower();
+                var allowedExtentions = new[] {".png",".jpg",".jpeg" };
+
+                if (!allowedExtentions.Contains(checkExtension))
+                {
+                    return Ok(new { Status = "Failed", Msg = "Wrong Image Type We Only Allow .png .jpg .jpeg" });
+                }
+                string path = Path.Combine(_env.WebRootPath, "uploadedimages");
+                using (var fs = new FileStream(Path.Combine(path, file.FileName+Guid.NewGuid()), FileMode.Create))
+                {
+                    file.CopyTo(fs);
+                }
+                return Ok(new { Status = "Success" });
+            }
+            return Ok(new {Status ="Failed",Msg= "Exceed Sizes Limit" });
         }
     }
 }

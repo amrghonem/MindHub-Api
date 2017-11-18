@@ -1,47 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
-using GraduationProject.SignalR.Hubs;
+using Microsoft.Owin;
+using Owin;
+
+[assembly: OwinStartup(typeof(GraduationProject.SignalR.Startup))]
 
 namespace GraduationProject.SignalR
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+        public void Configuration(IAppBuilder app)
         {
-            Configuration = configuration;
-        }
-
-        public IConfiguration Configuration { get; }
-
-        // This method gets called by the runtime. Use this method to add services to the container.
-        public void ConfigureServices(IServiceCollection services)
-        {
-            
-            services.AddMvc();
-            services.AddSignalR();
-        }
-
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
-        {
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-            }
-
-            app.UseMvc();
-            app.UseSignalR(routes =>
-            {
-                routes.MapHub<ChatHub>("chat");
-            });
+            // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=316888
+            app.MapSignalR();
         }
     }
 }
