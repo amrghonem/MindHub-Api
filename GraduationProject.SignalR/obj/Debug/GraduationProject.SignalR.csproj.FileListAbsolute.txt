@@ -66,3 +66,12 @@ D:\Graducation Project\Project-Web Application\GraduationProject.SignalR\obj\Deb
 D:\Graducation Project\Project-Web Application\GraduationProject.SignalR\obj\Debug\GraduationProject.SignalR.csproj.CoreCompileInputs.cache
 D:\Graducation Project\Project-Web Application\GraduationProject.SignalR\obj\Debug\GraduationProject.SignalR.dll
 D:\Graducation Project\Project-Web Application\GraduationProject.SignalR\obj\Debug\GraduationProject.SignalR.pdb
+D:\Graducation Project\Project-Web Application\GraduationProject.SignalR\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\Graducation Project\Project-Web Application\GraduationProject.SignalR\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\Graducation Project\Project-Web Application\GraduationProject.SignalR\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Graducation Project\Project-Web Application\GraduationProject.SignalR\bin\Microsoft.Owin.Security.dll
+D:\Graducation Project\Project-Web Application\GraduationProject.SignalR\bin\Microsoft.Web.Infrastructure.dll
+D:\Graducation Project\Project-Web Application\GraduationProject.SignalR\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\Graducation Project\Project-Web Application\GraduationProject.SignalR\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\Graducation Project\Project-Web Application\GraduationProject.SignalR\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Graducation Project\Project-Web Application\GraduationProject.SignalR\bin\Microsoft.Owin.Security.xml
