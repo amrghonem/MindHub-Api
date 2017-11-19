@@ -7,19 +7,6 @@ C:\Users\user\Source\Workspaces\Graduation_Project\GraduationProject\Project\Gra
 C:\Users\user\Source\Workspaces\Graduation_Project\GraduationProject\Project\GraduationProject.Infrastructure\obj\Debug\netcoreapp1.1\GraduationProject.Infrastructure.AssemblyInfo.cs
 C:\Users\user\Source\Workspaces\Graduation_Project\GraduationProject\Project\GraduationProject.Infrastructure\obj\Debug\netcoreapp1.1\GraduationProject.Infrastructure.dll
 C:\Users\user\Source\Workspaces\Graduation_Project\GraduationProject\Project\GraduationProject.Infrastructure\obj\Debug\netcoreapp1.1\GraduationProject.Infrastructure.pdb
-D:\Graducation Project\Project-Web Application\GraduationProject.Infrastructure\bin\Debug\netcoreapp1.1\GraduationProject.Infrastructure.deps.json
-D:\Graducation Project\Project-Web Application\GraduationProject.Infrastructure\bin\Debug\netcoreapp1.1\GraduationProject.Infrastructure.dll
-D:\Graducation Project\Project-Web Application\GraduationProject.Infrastructure\bin\Debug\netcoreapp1.1\GraduationProject.Infrastructure.pdb
-D:\Graducation Project\Project-Web Application\GraduationProject.Infrastructure\bin\Debug\netcoreapp1.1\GraduationProject.Data.dll
-D:\Graducation Project\Project-Web Application\GraduationProject.Infrastructure\bin\Debug\netcoreapp1.1\GraduationProject.DataAccess.dll
-D:\Graducation Project\Project-Web Application\GraduationProject.Infrastructure\bin\Debug\netcoreapp1.1\GraduationProject.DataAccess.pdb
-D:\Graducation Project\Project-Web Application\GraduationProject.Infrastructure\bin\Debug\netcoreapp1.1\GraduationProject.Data.pdb
-D:\Graducation Project\Project-Web Application\GraduationProject.Infrastructure\obj\Debug\netcoreapp1.1\GraduationProject.Infrastructure.csprojResolveAssemblyReference.cache
-D:\Graducation Project\Project-Web Application\GraduationProject.Infrastructure\obj\Debug\netcoreapp1.1\GraduationProject.Infrastructure.csproj.CoreCompileInputs.cache
-D:\Graducation Project\Project-Web Application\GraduationProject.Infrastructure\obj\Debug\netcoreapp1.1\GraduationProject.Infrastructure.AssemblyInfoInputs.cache
-D:\Graducation Project\Project-Web Application\GraduationProject.Infrastructure\obj\Debug\netcoreapp1.1\GraduationProject.Infrastructure.AssemblyInfo.cs
-D:\Graducation Project\Project-Web Application\GraduationProject.Infrastructure\obj\Debug\netcoreapp1.1\GraduationProject.Infrastructure.dll
-D:\Graducation Project\Project-Web Application\GraduationProject.Infrastructure\obj\Debug\netcoreapp1.1\GraduationProject.Infrastructure.pdb
 D:\GP\MindHub\MindHub-Api\GraduationProject.Infrastructure\bin\Debug\netcoreapp1.1\GraduationProject.Infrastructure.deps.json
 D:\GP\MindHub\MindHub-Api\GraduationProject.Infrastructure\bin\Debug\netcoreapp1.1\GraduationProject.Infrastructure.dll
 D:\GP\MindHub\MindHub-Api\GraduationProject.Infrastructure\bin\Debug\netcoreapp1.1\GraduationProject.Infrastructure.pdb
@@ -33,3 +20,16 @@ D:\GP\MindHub\MindHub-Api\GraduationProject.Infrastructure\obj\Debug\netcoreapp1
 D:\GP\MindHub\MindHub-Api\GraduationProject.Infrastructure\obj\Debug\netcoreapp1.1\GraduationProject.Infrastructure.AssemblyInfo.cs
 D:\GP\MindHub\MindHub-Api\GraduationProject.Infrastructure\obj\Debug\netcoreapp1.1\GraduationProject.Infrastructure.dll
 D:\GP\MindHub\MindHub-Api\GraduationProject.Infrastructure\obj\Debug\netcoreapp1.1\GraduationProject.Infrastructure.pdb
+D:\Graducation Project\Project-Web Application\GraduationProject.Infrastructure\bin\Debug\netcoreapp1.1\GraduationProject.Infrastructure.deps.json
+D:\Graducation Project\Project-Web Application\GraduationProject.Infrastructure\bin\Debug\netcoreapp1.1\GraduationProject.Infrastructure.dll
+D:\Graducation Project\Project-Web Application\GraduationProject.Infrastructure\bin\Debug\netcoreapp1.1\GraduationProject.Infrastructure.pdb
+D:\Graducation Project\Project-Web Application\GraduationProject.Infrastructure\bin\Debug\netcoreapp1.1\GraduationProject.Data.dll
+D:\Graducation Project\Project-Web Application\GraduationProject.Infrastructure\bin\Debug\netcoreapp1.1\GraduationProject.DataAccess.dll
+D:\Graducation Project\Project-Web Application\GraduationProject.Infrastructure\bin\Debug\netcoreapp1.1\GraduationProject.DataAccess.pdb
+D:\Graducation Project\Project-Web Application\GraduationProject.Infrastructure\bin\Debug\netcoreapp1.1\GraduationProject.Data.pdb
+D:\Graducation Project\Project-Web Application\GraduationProject.Infrastructure\obj\Debug\netcoreapp1.1\GraduationProject.Infrastructure.csprojResolveAssemblyReference.cache
+D:\Graducation Project\Project-Web Application\GraduationProject.Infrastructure\obj\Debug\netcoreapp1.1\GraduationProject.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Graducation Project\Project-Web Application\GraduationProject.Infrastructure\obj\Debug\netcoreapp1.1\GraduationProject.Infrastructure.AssemblyInfoInputs.cache
+D:\Graducation Project\Project-Web Application\GraduationProject.Infrastructure\obj\Debug\netcoreapp1.1\GraduationProject.Infrastructure.AssemblyInfo.cs
+D:\Graducation Project\Project-Web Application\GraduationProject.Infrastructure\obj\Debug\netcoreapp1.1\GraduationProject.Infrastructure.dll
+D:\Graducation Project\Project-Web Application\GraduationProject.Infrastructure\obj\Debug\netcoreapp1.1\GraduationProject.Infrastructure.pdb

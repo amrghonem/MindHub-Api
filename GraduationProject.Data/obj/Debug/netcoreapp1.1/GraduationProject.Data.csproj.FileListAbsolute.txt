@@ -7,6 +7,14 @@ C:\Users\user\Source\Workspaces\Graduation_Project\GraduationProject\Project\Gra
 C:\Users\user\Source\Workspaces\Graduation_Project\GraduationProject\Project\GraduationProject.Data\obj\Debug\netcoreapp1.1\GraduationProject.Data.AssemblyInfo.cs
 C:\Users\user\Source\Workspaces\Graduation_Project\GraduationProject\Project\GraduationProject.Data\obj\Debug\netcoreapp1.1\GraduationProject.Data.dll
 C:\Users\user\Source\Workspaces\Graduation_Project\GraduationProject\Project\GraduationProject.Data\obj\Debug\netcoreapp1.1\GraduationProject.Data.pdb
+D:\GP\MindHub\MindHub-Api\GraduationProject.Data\bin\Debug\netcoreapp1.1\GraduationProject.Data.deps.json
+D:\GP\MindHub\MindHub-Api\GraduationProject.Data\bin\Debug\netcoreapp1.1\GraduationProject.Data.dll
+D:\GP\MindHub\MindHub-Api\GraduationProject.Data\bin\Debug\netcoreapp1.1\GraduationProject.Data.pdb
+D:\GP\MindHub\MindHub-Api\GraduationProject.Data\obj\Debug\netcoreapp1.1\GraduationProject.Data.csproj.CoreCompileInputs.cache
+D:\GP\MindHub\MindHub-Api\GraduationProject.Data\obj\Debug\netcoreapp1.1\GraduationProject.Data.AssemblyInfoInputs.cache
+D:\GP\MindHub\MindHub-Api\GraduationProject.Data\obj\Debug\netcoreapp1.1\GraduationProject.Data.AssemblyInfo.cs
+D:\GP\MindHub\MindHub-Api\GraduationProject.Data\obj\Debug\netcoreapp1.1\GraduationProject.Data.dll
+D:\GP\MindHub\MindHub-Api\GraduationProject.Data\obj\Debug\netcoreapp1.1\GraduationProject.Data.pdb
 D:\Graducation Project\Project-Web Application\GraduationProject.Data\bin\Debug\netcoreapp1.1\GraduationProject.Data.deps.json
 D:\Graducation Project\Project-Web Application\GraduationProject.Data\bin\Debug\netcoreapp1.1\GraduationProject.Data.dll
 D:\Graducation Project\Project-Web Application\GraduationProject.Data\bin\Debug\netcoreapp1.1\GraduationProject.Data.pdb
@@ -16,6 +24,8 @@ D:\Graducation Project\Project-Web Application\GraduationProject.Data\obj\Debug\
 D:\Graducation Project\Project-Web Application\GraduationProject.Data\obj\Debug\netcoreapp1.1\GraduationProject.Data.dll
 D:\Graducation Project\Project-Web Application\GraduationProject.Data\obj\Debug\netcoreapp1.1\GraduationProject.Data.pdb
 D:\Graducation Project\Project-Web Application\GraduationProject.Data\obj\Debug\netcoreapp1.1\GraduationProject.Data.csprojResolveAssemblyReference.cache
+<<<<<<< HEAD
+=======
 D:\GP\MindHub\MindHub-Api\GraduationProject.Data\bin\Debug\netcoreapp1.1\GraduationProject.Data.deps.json
 D:\GP\MindHub\MindHub-Api\GraduationProject.Data\bin\Debug\netcoreapp1.1\GraduationProject.Data.dll
 D:\GP\MindHub\MindHub-Api\GraduationProject.Data\bin\Debug\netcoreapp1.1\GraduationProject.Data.pdb
@@ -25,3 +35,7 @@ D:\GP\MindHub\MindHub-Api\GraduationProject.Data\obj\Debug\netcoreapp1.1\Graduat
 D:\GP\MindHub\MindHub-Api\GraduationProject.Data\obj\Debug\netcoreapp1.1\GraduationProject.Data.dll
 D:\GP\MindHub\MindHub-Api\GraduationProject.Data\obj\Debug\netcoreapp1.1\GraduationProject.Data.pdb
 D:\GP\MindHub\MindHub-Api\GraduationProject.Data\obj\Debug\netcoreapp1.1\GraduationProject.Data.csprojResolveAssemblyReference.cache
+<<<<<<< HEAD
+>>>>>>> 8ffefe7310542a3bf6f47dfe2de0ee91c61f4feb
+=======
+>>>>>>> 8ffefe7310542a3bf6f47dfe2de0ee91c61f4feb

@@ -13,6 +13,10 @@ namespace GraduationProject.Data.Models
         public string Info { get; set; }
         public string School { get; set; }
         public string University { get; set; }
+        public string SchholYearFrom { get; set; }
+        public string SchholYearTo { get; set; }
+        public string UniverstyYearFrom { get; set; }
+        public string UniverstyYearTo { get; set; }
         public bool? FirstVisit { get; set; }
         public string Email { get; set; }
         public string Gender { get; set; }

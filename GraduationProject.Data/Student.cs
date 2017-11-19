@@ -8,6 +8,10 @@ namespace GraduationProject.Data
     {
         public string School { get; set; }
         public string Universty { get; set; }
+        public string SchholYearFrom { get; set; }
+        public string SchholYearTo { get; set; }
+        public string UniverstyYearFrom { get; set; }
+        public string UniverstyYearTo { get; set; }
         public string Image { get; set; }
         public string Info { get; set; }
         public bool FirstVisit { get; set; }

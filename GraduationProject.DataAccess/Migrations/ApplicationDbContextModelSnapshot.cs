@@ -204,11 +204,19 @@ namespace GraduationProject.DataAccess.Migrations
 
                     b.Property<string>("Info");
 
+                    b.Property<string>("SchholYearFrom");
+
+                    b.Property<string>("SchholYearTo");
+
                     b.Property<string>("School");
 
                     b.Property<string>("Title");
 
                     b.Property<string>("Universty");
+
+                    b.Property<string>("UniverstyYearFrom");
+
+                    b.Property<string>("UniverstyYearTo");
 
                     b.HasKey("Id");
 
