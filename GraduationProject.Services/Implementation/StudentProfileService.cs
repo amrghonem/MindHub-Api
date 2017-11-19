@@ -205,7 +205,8 @@ namespace GraduationProject.Services.Implementation
                         Name = frined.FriendTwo.Name,
                         FriendId = frined.FriendTwo.Id,
                         Title = friendData.Title,
-                        FriendImage = friendData.Image
+                        FriendImage = friendData.Image,
+                        Gender  =friendData.User.Gender
                     };
                     finedsList.Add(studentFriend);
                 }
@@ -282,8 +283,7 @@ namespace GraduationProject.Services.Implementation
         }
         public Student GetStudent(string id)
         {
-            var x = _repoStud.GetAll().SingleOrDefault(s => s.ApplicationUserId == id); 
-            return _repoStud.GetAll().SingleOrDefault(s=>s.ApplicationUserId==id);
+            return _repoStud.GetAll().Include(u=> u.User).SingleOrDefault(s=>s.ApplicationUserId==id);
         }
 #endregion
     }
