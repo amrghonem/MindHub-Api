@@ -11,7 +11,7 @@ namespace GraduationProject.Data
         public string Image { get; set; }
         public string Info { get; set; }
         public bool FirstVisit { get; set; }
-
+        public string Title { get; set; }
         public string ApplicationUserId { get; set; }
         public virtual ApplicationUser User { get; set; }
 
