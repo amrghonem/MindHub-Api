@@ -7,6 +7,7 @@ using GraduationProject.Data;
 using GraduationProject.Services.Interfaces;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Authorization;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -30,9 +31,10 @@ namespace GraduationProject.Web.Controllers.Api
             return Ok(new { Status = "Success" });
         }
         [HttpGet]
-        [Route("api/test")]
-        public async Task<IActionResult> TestMethod()
-        {
+        [Route("api/newsfeed")]
+        [Authorize(policy: "Students")]
+        public async Task<IActionResult> NewsFeed()
+            {
             var claimsIdentity = (ClaimsIdentity)this.User.Identity;
             var claim = claimsIdentity.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier);
             var userEmail = claim.Value;

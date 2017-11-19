@@ -131,6 +131,7 @@ namespace GraduationProject.Services.Implementation
             return _frindRepo.Delete(_frindRepo.Get(id));
         }
 
+
         StudentProfileVM GetStudentFullProfile(string userId)
         {
             //Student Info
@@ -147,6 +148,7 @@ namespace GraduationProject.Services.Implementation
                 University = studentInfo.Universty,
                 UserId=studentInfo.ApplicationUserId,
                 School=studentInfo.School,
+                Title=studentInfo.Title
             };
             //Student Skills
             var allSkills = GetStudentSkills(userId);
@@ -194,13 +196,19 @@ namespace GraduationProject.Services.Implementation
             List<StudentFollowingVM> finedsList = new List<StudentFollowingVM>();
             foreach (var frined in allFriends)
             {
-                StudentFollowingVM studentFriend = new StudentFollowingVM()
+                var friendData = GetStudent(frined.FriendTwoId);
+                if (friendData!=null)
                 {
-                    Id = frined.Id,
-                    Name = frined.FriendTwo.Name,
-                    FriendId = frined.FriendTwo.Id
-                };
-                finedsList.Add(studentFriend);
+                    StudentFollowingVM studentFriend = new StudentFollowingVM()
+                    {
+                        Id = frined.Id,
+                        Name = frined.FriendTwo.Name,
+                        FriendId = frined.FriendTwo.Id,
+                        Title = friendData.Title,
+                        FriendImage = friendData.Image
+                    };
+                    finedsList.Add(studentFriend);
+                }
             }
             studentProfile.Friends = finedsList;
             //End Student Firneds
@@ -265,6 +273,11 @@ namespace GraduationProject.Services.Implementation
          IEnumerable<Friend> GetStudentFriends(string userId)
         {
             return _frindRepo.GetAll().Where(u => u.FriendOne.Id == userId).Include(u=>u.FriendOne).Include(u=> u.FriendTwo);
+        }
+        public Student GetStudent(string id)
+        {
+            var x = _repoStud.GetAll().SingleOrDefault(s => s.ApplicationUserId == id); 
+            return _repoStud.GetAll().SingleOrDefault(s=>s.ApplicationUserId==id);
         }
 #endregion
     }

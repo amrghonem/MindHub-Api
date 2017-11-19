@@ -128,15 +128,19 @@ namespace GraduationProject.DataAccess.Migrations
 
             modelBuilder.Entity("GraduationProject.Data.Friend", b =>
                 {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
                     b.Property<string>("FriendOneId")
                         .HasMaxLength(450);
 
                     b.Property<string>("FriendTwoId")
                         .HasMaxLength(450);
 
-                    b.Property<int>("Id");
+                    b.HasKey("Id", "FriendOneId", "FriendTwoId");
 
-                    b.HasKey("FriendOneId", "FriendTwoId");
+                    b.HasIndex("FriendOneId");
 
                     b.HasIndex("FriendTwoId");
 
@@ -201,6 +205,8 @@ namespace GraduationProject.DataAccess.Migrations
                     b.Property<string>("Info");
 
                     b.Property<string>("School");
+
+                    b.Property<string>("Title");
 
                     b.Property<string>("Universty");
 
