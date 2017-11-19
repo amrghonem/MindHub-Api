@@ -11,5 +11,7 @@ namespace GraduationProject.Data.Models
         public int Id { get; set; }
         public string FriendId { get; set; }
         public string FriendImage { get; set; }
+        public string Gender { get; set; }
+
     }
 }
