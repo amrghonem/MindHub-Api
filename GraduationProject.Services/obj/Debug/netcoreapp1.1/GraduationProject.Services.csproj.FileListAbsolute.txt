@@ -22,3 +22,18 @@ D:\Graducation Project\Project-Web Application\GraduationProject.Services\obj\De
 D:\Graducation Project\Project-Web Application\GraduationProject.Services\obj\Debug\netcoreapp1.1\GraduationProject.Services.AssemblyInfo.cs
 D:\Graducation Project\Project-Web Application\GraduationProject.Services\obj\Debug\netcoreapp1.1\GraduationProject.Services.dll
 D:\Graducation Project\Project-Web Application\GraduationProject.Services\obj\Debug\netcoreapp1.1\GraduationProject.Services.pdb
+D:\GP\MindHub\MindHub-Api\GraduationProject.Services\bin\Debug\netcoreapp1.1\GraduationProject.Services.deps.json
+D:\GP\MindHub\MindHub-Api\GraduationProject.Services\bin\Debug\netcoreapp1.1\GraduationProject.Services.dll
+D:\GP\MindHub\MindHub-Api\GraduationProject.Services\bin\Debug\netcoreapp1.1\GraduationProject.Services.pdb
+D:\GP\MindHub\MindHub-Api\GraduationProject.Services\bin\Debug\netcoreapp1.1\GraduationProject.Data.dll
+D:\GP\MindHub\MindHub-Api\GraduationProject.Services\bin\Debug\netcoreapp1.1\GraduationProject.DataAccess.dll
+D:\GP\MindHub\MindHub-Api\GraduationProject.Services\bin\Debug\netcoreapp1.1\GraduationProject.Infrastructure.dll
+D:\GP\MindHub\MindHub-Api\GraduationProject.Services\bin\Debug\netcoreapp1.1\GraduationProject.DataAccess.pdb
+D:\GP\MindHub\MindHub-Api\GraduationProject.Services\bin\Debug\netcoreapp1.1\GraduationProject.Data.pdb
+D:\GP\MindHub\MindHub-Api\GraduationProject.Services\bin\Debug\netcoreapp1.1\GraduationProject.Infrastructure.pdb
+D:\GP\MindHub\MindHub-Api\GraduationProject.Services\obj\Debug\netcoreapp1.1\GraduationProject.Services.csprojResolveAssemblyReference.cache
+D:\GP\MindHub\MindHub-Api\GraduationProject.Services\obj\Debug\netcoreapp1.1\GraduationProject.Services.csproj.CoreCompileInputs.cache
+D:\GP\MindHub\MindHub-Api\GraduationProject.Services\obj\Debug\netcoreapp1.1\GraduationProject.Services.AssemblyInfoInputs.cache
+D:\GP\MindHub\MindHub-Api\GraduationProject.Services\obj\Debug\netcoreapp1.1\GraduationProject.Services.AssemblyInfo.cs
+D:\GP\MindHub\MindHub-Api\GraduationProject.Services\obj\Debug\netcoreapp1.1\GraduationProject.Services.dll
+D:\GP\MindHub\MindHub-Api\GraduationProject.Services\obj\Debug\netcoreapp1.1\GraduationProject.Services.pdb
