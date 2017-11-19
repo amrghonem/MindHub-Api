@@ -217,32 +217,38 @@ namespace GraduationProject.Services.Implementation
             List<StudentQuestionVM> questionsList = new List<StudentQuestionVM>();
             foreach (var question in allQuestions)
             {
-                StudentQuestionVM studentQuestion = new StudentQuestionVM()
+                var studentData = GetStudent(question.UserId);
+                if (studentData !=null)
                 {
-                    Id = question.Id,
-                    Dislikes=question.Dislikes,
-                    Likes =question.Likes,
-                    QuestionHead =question.QuestionHead,
-                    Username=question.User.Name,
-                    //Image =question.User.Student.Image,
-                    UserId = question.UserId
-                };
-
-                List<QuestionAnswerVM> questionAnswersList = new List<QuestionAnswerVM>();
-                foreach (var answer in question.Answers)
-                {
-                    QuestionAnswerVM Answer = new QuestionAnswerVM() {
-                        Answer = answer.QuestionAnswer,
-                        Id = answer.Id,
-                        UserId= answer.UserId,
-                        Username = answer.User.Name,
-                        //UserImage = answer.User.Student.Image
+                    StudentQuestionVM studentQuestion = new StudentQuestionVM()
+                    {
+                        Id = question.Id,
+                        Dislikes = question.Dislikes,
+                        Likes = question.Likes,
+                        QuestionHead = question.QuestionHead,
+                        Username = question.User.Name,
+                        Image = studentData.Image,
+                        UserId = question.UserId
                     };
-                    questionAnswersList.Add(Answer);
-                }//End Answers ForLoop
-                studentQuestion.Answers = questionAnswersList;
 
-                questionsList.Add(studentQuestion);
+                    List<QuestionAnswerVM> questionAnswersList = new List<QuestionAnswerVM>();
+                    foreach (var answer in question.Answers)
+                    {
+                        QuestionAnswerVM Answer = new QuestionAnswerVM()
+                        {
+                            Answer = answer.QuestionAnswer,
+                            Id = answer.Id,
+                            UserId = answer.UserId,
+                            Username = answer.User.Name,
+                            //UserImage = answer.User.Student.Image
+                        };
+                        questionAnswersList.Add(Answer);
+                    }//End Answers ForLoop
+                    studentQuestion.Answers = questionAnswersList;
+
+                    questionsList.Add(studentQuestion);
+                }
+
             }//End Questions ForLoop
             studentProfile.Questions = questionsList;
             //End Student Questions
