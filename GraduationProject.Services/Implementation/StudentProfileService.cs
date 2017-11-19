@@ -146,6 +146,10 @@ namespace GraduationProject.Services.Implementation
                 Gender =studentInfo.User.Gender,
                 Image = studentInfo.Image,
                 University = studentInfo.Universty,
+                UniverstyYearFrom=studentInfo.UniverstyYearFrom,
+                UniverstyYearTo = studentInfo.UniverstyYearTo,
+                SchholYearFrom=studentInfo.SchholYearFrom,
+                SchholYearTo =studentInfo.SchholYearTo,
                 UserId=studentInfo.ApplicationUserId,
                 School=studentInfo.School,
                 Title=studentInfo.Title
