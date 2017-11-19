@@ -24,3 +24,4 @@ D:\GP\MindHub\MindHub-Api\GraduationProject.Data\obj\Debug\netcoreapp1.1\Graduat
 D:\GP\MindHub\MindHub-Api\GraduationProject.Data\obj\Debug\netcoreapp1.1\GraduationProject.Data.AssemblyInfo.cs
 D:\GP\MindHub\MindHub-Api\GraduationProject.Data\obj\Debug\netcoreapp1.1\GraduationProject.Data.dll
 D:\GP\MindHub\MindHub-Api\GraduationProject.Data\obj\Debug\netcoreapp1.1\GraduationProject.Data.pdb
+D:\GP\MindHub\MindHub-Api\GraduationProject.Data\obj\Debug\netcoreapp1.1\GraduationProject.Data.csprojResolveAssemblyReference.cache
