@@ -148,7 +148,7 @@ D:\GP\MindHub\MindHub-Api\GraduationProject.SignalR\bin\Newtonsoft.Json.xml
 D:\GP\MindHub\MindHub-Api\GraduationProject.SignalR\bin\System.Net.Http.Formatting.xml
 D:\GP\MindHub\MindHub-Api\GraduationProject.SignalR\bin\System.Web.Http.xml
 D:\GP\MindHub\MindHub-Api\GraduationProject.SignalR\bin\System.Web.Http.WebHost.xml
-D:\GP\MindHub\MindHub-Api\GraduationProject.SignalR\obj\Debug\GraduationProject.SignalR.csprojResolveAssemblyReference.cache
 D:\GP\MindHub\MindHub-Api\GraduationProject.SignalR\obj\Debug\GraduationProject.SignalR.csproj.CoreCompileInputs.cache
 D:\GP\MindHub\MindHub-Api\GraduationProject.SignalR\obj\Debug\GraduationProject.SignalR.dll
 D:\GP\MindHub\MindHub-Api\GraduationProject.SignalR\obj\Debug\GraduationProject.SignalR.pdb
+D:\GP\MindHub\MindHub-Api\GraduationProject.SignalR\obj\Debug\GraduationProject.SignalR.csprojResolveAssemblyReference.cache
